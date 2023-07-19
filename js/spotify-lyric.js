@@ -34,7 +34,7 @@ http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ s
 */
 // 注意: QX用户需要手动填入appid和securityKey密钥, Surge和Loon用户无需填入!!!!
 const options = {
-    appid: 20230719001750461
+    appid: 20230719001750461，
     securityKey: eUZfWYmQvGxddg0MJtlZ
 };
 // text-decoder
