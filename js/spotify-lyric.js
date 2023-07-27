@@ -13,6 +13,8 @@ Spotify非中文歌词翻译 Surge和Loon需要>=iOS15 (仓库地址: https://gi
 
 ------------软件配置(在文本模式下,填入下方内容)--------------
 如果软件已经加载过Spotify解锁
+[Mitm]
+hostname = spclient.wg.spotify.com
 3.qx:
     - 自行配置MITM域名: spclient.wg.spotify.com
     - 手动修改填入下方的appid和securityKey密钥, 并配置重写,类型为script-response-body,
